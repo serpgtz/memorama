@@ -1,0 +1,40 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(114, 114, 210);
+}
+#main{
+    display: flex;
+    flex-direction: column;
+}
+
+#juego{
+    margin-top: 10px;
+    height: 80%;
+
+}
+.fila{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+}
+.contenedor {
+    width: 190px;
+    height: 120px;
+    border: 1.5px solid black;
+    background-color: white;
+}
+.caja{
+    width: 100%;
+    height: 100%;
+    
+}
+#resultados{
+    height: 20%;
+    text-align: center;
+    font-size: 26px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: monospace;
+}
